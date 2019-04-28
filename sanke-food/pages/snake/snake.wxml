@@ -1,0 +1,22 @@
+<view class='control' bindtouchstart='tapStart' bindtouchend='tapEnd' bindtouchmove='tapMove'>
+  <view class='main'>
+    <view class='main_left'>Snake</view>
+    
+    <view class='main_middle'>
+      <view class='getscore'>得分</view>
+      <view class='getscorenumber'>{{score}}</view>
+    </view>
+    <view class='main_right'>
+       <view class='getscore'>历史最高得分</view>
+       <view class='getscorenumber'>{{maxscore}}</view>
+    </view>
+    </view>
+    <view class='footer'>
+      <view wx:for='{{ground}}' class='rows' wx:for-item='cols'>
+        <view wx:for='{{cols}}' class='block block_{{item}}'></view>
+      </view>
+    <modal class='modal' hidden='{{modalHidden}}' no-ancle bindconfirm='modalChange'>
+    <view>游戏结束，重新开始吗？</view>
+    </modal>
+    </view>
+  </view>

@@ -1,0 +1,62 @@
+.control {
+
+}
+.main {
+  display:flex;
+}
+.main_left {
+  flex:1;
+    height: 150rpx;
+    line-height: 150rpx;
+    background:deepskyblue;
+    margin: 40rpx 20rpx 40rpx 40rpx;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 8rpx;
+}
+.main_middle {
+  flex:1;
+    height: 150rpx;
+    background:#eee4da;
+    margin: 40rpx 20rpx;
+    text-align: center;
+    border-radius: 8rpx;
+     font-size: 0.8rem;
+    line-height: 60rpx;
+}
+.main_right {
+  flex:1;
+    height: 150rpx;
+    background:#eee4da;
+    margin: 40rpx 20rpx;
+    text-align: center;
+    border-radius: 8rpx;
+     font-size: 0.8rem;
+    line-height: 60rpx;
+}
+.getscorenumber{
+  line-height:70rpx;
+}
+.footer {
+  width: 660rpx;
+    height:840rpx;
+    margin-left: 40rpx;
+    background-color:#CCCCCC;
+}
+.block{
+    width:30rpx;
+    height:30rpx;
+    float: left;
+    background: #ccc;
+}
+.rows{
+    width: 660rpx;
+    height:30rpx;
+}
+.block_1{
+    background:#f00;
+}
+.block_2{
+    background:greenyellow;
+}
